@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clipper</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 1.25rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8e8; background: #141414; }
+    a { color: #7bb0ff; }
+    .card { background: #1e1e1e; border-color: #2c2c2c; }
+  }
+  .card {
+    max-width: 640px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 14px;
+    padding: 2.5rem;
+  }
+  h1 { font-size: 1.9rem; margin: 0 0 .25rem; }
+  .tag { color: #888; margin: 0 0 1.75rem; font-size: 1.05rem; }
+  h2 { font-size: 1.05rem; margin: 1.75rem 0 .4rem; }
+  ul { padding-left: 1.2rem; margin: .4rem 0; }
+  a { color: #2563eb; }
+  footer { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid #eaeaea; font-size: .9rem; color: #888; }
+  @media (prefers-color-scheme: dark) { footer { border-color: #2c2c2c; } }
+</style>
+</head>
+<body>
+  <main class="card">
+    <h1>Clipper</h1>
+    <p class="tag">A personal tool for turning long videos into short vertical clips and publishing them to your own YouTube channel.</p>
+
+    <h2>What it does</h2>
+    <p>Clipper runs on your own computer. It takes a source video, finds highlight moments, reframes them to a vertical (9:16) format with captions, and — when you choose to — uploads the finished clips to <strong>your own</strong> YouTube channel using the YouTube Data API.</p>
+
+    <h2>Google account access</h2>
+    <p>Clipper connects to your YouTube account through Google OAuth only to:</p>
+    <ul>
+      <li>Upload videos you create to your own channel;</li>
+      <li>Read basic information and public statistics about your own channel and videos, to show you performance reports.</li>
+    </ul>
+    <p>It does not access anyone else's account and does not post anywhere without your action.</p>
+
+    <h2>Privacy</h2>
+    <p>Clipper is a single-user application. Your Google sign-in stays on your own machine, and the developer does not collect or receive your data. See the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+    <footer>
+      Contact: <a href="mailto:1999wue@gmail.com">1999wue@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
